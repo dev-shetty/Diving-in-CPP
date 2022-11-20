@@ -7,7 +7,7 @@ class Prime {
         for (int i = 3; i <= x / 2; i += 2) {
             if (x % i == 0) return false;
         }
-        return true;  // was giving warning so had to put this
+        return true;
     }
 };
 
