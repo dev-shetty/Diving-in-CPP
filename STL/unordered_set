@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    // Stores only unqiue values but does not store in sorted...stores in
+    // randomize order
+    unordered_set<int> us;
+    us.insert(1);
+    us.insert(2);
+    us.insert(2);  // will not stored 2 again
+    us.emplace(4);
+    us.insert(3);
+
+    // All operations  - O(1) and worst case (very rare) - O(N)
+    return 0;
+}
